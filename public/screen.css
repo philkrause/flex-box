@@ -22,21 +22,34 @@ h1 {
   background-color: rgb(0, 255, 255, 0.2);
 }
 
-ul {
+.header-list {
   font-family: Verdana;
   display: flex;
   justify-content: space-between;
-  margin: 10%;
-
-  min-width: 50%;
   list-style: none;
+  text-decoration: overline;
 }
 
 a {
-  /* text-decoration: none; */
+  text-decoration: none;
   color: black;
 }
 
-ul > li > a :hover {
-  color: yellow;
+ul :hover > a {
+  color: rgb(255, 0, 0, 0.2);
+}
+
+.profile-pic {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-top: 5rem;
+  margin-left: 1rem;
+  border-style: solid;
+  border-color: black;
+}
+
+.profile-pic > p {
+  text-align: center;
+  font-style: bold;
 }
