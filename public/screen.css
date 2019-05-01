@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase');
+
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -9,4 +11,32 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+}
+
+h1 {
+  font-family: 'Cormorant Unicase', serif;
+  text-decoration: underline;
+  font-size: 6rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 255, 255, 0.2);
+}
+
+ul {
+  font-family: Verdana;
+  display: flex;
+  justify-content: space-between;
+  margin: 10%;
+
+  min-width: 50%;
+  list-style: none;
+}
+
+a {
+  /* text-decoration: none; */
+  color: black;
+}
+
+ul > li > a :hover {
+  color: yellow;
 }
