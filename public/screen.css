@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Artifika|Oswald');
 
 :root {
   font: 16px / 1 sans-serif;
@@ -26,8 +28,10 @@ h1 {
   font-family: Verdana;
   display: flex;
   justify-content: space-between;
+  margin-left: 5rem;
+  margin-right: 5rem;
   list-style: none;
-  text-decoration: overline;
+  text-decoration: underline;
 }
 
 a {
@@ -39,17 +43,32 @@ ul :hover > a {
   color: rgb(255, 0, 0, 0.2);
 }
 
-.profile-pic {
+.profile {
   display: flex;
   flex-direction: column;
   float: left;
   margin-top: 5rem;
-  margin-left: 1rem;
-  border-style: solid;
+  margin-left: 3rem;
+  border-style: inset;
   border-color: black;
+  padding: 2rem;
+  background-color: rgb(126, 86, 190, 0.5);
 }
 
-.profile-pic > p {
+.profile > a > img {
+  margin-left: 10px;
+}
+
+.profile > a > p {
   text-align: center;
-  font-style: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+}
+
+.bio > h2 {
+  text-align: center;
+  margin-top: 6rem;
+  margin-right: 25rem;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Artifika', serif;
 }
